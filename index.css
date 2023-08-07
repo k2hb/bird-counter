@@ -1,0 +1,66 @@
+body {
+  background-image: url("owl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Monospace;
+  font-weight: bold;
+  text-align: center;
+  height: 100vh;
+  color: black;
+  font-size: large;
+}
+
+.container {
+  background: white;
+  /* max-width: 100%; */
+  width: 300px;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+#increment-btn {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  flex-direction: column;
+  margin: 10px auto 10px auto;
+  background: brown;
+}
+
+#save-btn {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  flex-direction: column;
+  margin: 10px auto 10px auto;
+  background: dimgrey;
+}
+
+#count-el {
+  color: midnightblue;
+}
